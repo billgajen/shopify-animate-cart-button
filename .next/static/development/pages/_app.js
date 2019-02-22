@@ -65396,9 +65396,11 @@ function (_Component) {
         }, _callee, this);
       }));
 
-      return function getInitialProps(_x) {
+      function getInitialProps(_x) {
         return _getInitialProps.apply(this, arguments);
-      };
+      }
+
+      return getInitialProps;
     }()
   }]);
   return App;
@@ -66269,9 +66271,11 @@ function () {
         }, _callee, this);
       }));
 
-      return function reload(_x) {
+      function reload(_x) {
         return _reload.apply(this, arguments);
-      };
+      }
+
+      return reload;
     }()
   }, {
     key: "back",
@@ -66400,9 +66404,11 @@ function () {
         }, _callee2, this);
       }));
 
-      return function change(_x2, _x3, _x4, _x5) {
+      function change(_x2, _x3, _x4, _x5) {
         return _change.apply(this, arguments);
-      };
+      }
+
+      return change;
     }()
   }, {
     key: "changeState",
@@ -66556,9 +66562,11 @@ function () {
         }, _callee3, this, [[1, 18], [29, 35]]);
       }));
 
-      return function getRouteInfo(_x6, _x7, _x8, _x9) {
+      function getRouteInfo(_x6, _x7, _x8, _x9) {
         return _getRouteInfo.apply(this, arguments);
-      };
+      }
+
+      return getRouteInfo;
     }()
   }, {
     key: "set",
@@ -66680,9 +66688,11 @@ function () {
         }, _callee4, this);
       }));
 
-      return function prefetch(_x10) {
+      function prefetch(_x10) {
         return _prefetch.apply(this, arguments);
-      };
+      }
+
+      return prefetch;
     }()
   }, {
     key: "fetchComponent",
@@ -66731,9 +66741,11 @@ function () {
         }, _callee5, this);
       }));
 
-      return function fetchComponent(_x11, _x12) {
+      function fetchComponent(_x11, _x12) {
         return _fetchComponent.apply(this, arguments);
-      };
+      }
+
+      return fetchComponent;
     }()
   }, {
     key: "getInitialProps",
@@ -66788,9 +66800,11 @@ function () {
         }, _callee6, this);
       }));
 
-      return function getInitialProps(_x13, _x14) {
+      function getInitialProps(_x13, _x14) {
         return _getInitialProps.apply(this, arguments);
-      };
+      }
+
+      return getInitialProps;
     }()
   }, {
     key: "fetchRoute",
@@ -66812,9 +66826,11 @@ function () {
         }, _callee7, this);
       }));
 
-      return function fetchRoute(_x15) {
+      function fetchRoute(_x15) {
         return _fetchRoute.apply(this, arguments);
-      };
+      }
+
+      return fetchRoute;
     }()
   }, {
     key: "abortComponentLoad",
@@ -67794,12 +67810,12 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -68691,12 +68707,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -69304,12 +69320,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -71025,7 +71041,7 @@ module.exports = hoistNonReactStatics;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.7.0
+/** @license React v16.8.3
  * react-dom-server.browser.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -71093,7 +71109,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 // TODO: this is special because it gets imported during build.
 
-var ReactVersion = '16.7.0';
+var ReactVersion = '16.8.3';
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -71283,6 +71299,15 @@ var lowPriorityWarning$1 = lowPriorityWarning;
 
 var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 
+// Prevent newer renderers from RTE when used with older react package versions.
+// Current owner and dispatcher used to share the same ref,
+// but PR #14548 split them out to better support the react-debug-tools package.
+if (!ReactSharedInternals.hasOwnProperty('ReactCurrentDispatcher')) {
+  ReactSharedInternals.ReactCurrentDispatcher = {
+    current: null
+  };
+}
+
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
  * This can be used to log issues in development environments in critical
@@ -71339,7 +71364,6 @@ var describeComponentFrame = function (name, source, ownerName) {
   return '\n    in ' + (name || 'Unknown') + sourceInfo;
 };
 
-var enableHooks = false;
 // Helps identify side effects in begin-phase lifecycle hooks and setState reducers:
 
 
@@ -71760,12 +71784,15 @@ var capitalize = function (token) {
   attributeName, 'http://www.w3.org/XML/1998/namespace');
 });
 
-// Special case: this attribute exists both in HTML and SVG.
-// Its "tabindex" attribute name is case-sensitive in SVG so we can't just use
-// its React `tabIndex` name, like we do for attributes that exist only in HTML.
-properties.tabIndex = new PropertyInfoRecord('tabIndex', STRING, false, // mustUseProperty
-'tabindex', // attributeName
-null);
+// These attribute exists both in HTML and SVG.
+// The attribute name is case-sensitive in SVG so we can't just use
+// the React name like we do for attributes that exist only in HTML.
+['tabIndex', 'crossOrigin'].forEach(function (attributeName) {
+  properties[attributeName] = new PropertyInfoRecord(attributeName, STRING, false, // mustUseProperty
+  attributeName.toLowerCase(), // attributeName
+  null);
+} // attributeNamespace
+);
 
 // code copied and modified from escape-html
 /**
@@ -71920,24 +71947,13 @@ function createMarkupForCustomAttribute(name, value) {
   return name + '=' + quoteAttributeValueForBrowser(value);
 }
 
-function areHookInputsEqual(arr1, arr2) {
-  // Don't bother comparing lengths in prod because these arrays should be
-  // passed inline.
-  {
-    !(arr1.length === arr2.length) ? warning$1(false, 'Detected a variable number of hook dependencies. The length of the ' + 'dependencies array should be constant between renders.\n\n' + 'Previous: %s\n' + 'Incoming: %s', arr1.join(', '), arr2.join(', ')) : void 0;
-  }
-  for (var i = 0; i < arr1.length; i++) {
-    // Inlined Object.is polyfill.
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
-    var val1 = arr1[i];
-    var val2 = arr2[i];
-    if (val1 === val2 && (val1 !== 0 || 1 / val1 === 1 / val2) || val1 !== val1 && val2 !== val2 // eslint-disable-line no-self-compare
-    ) {
-        continue;
-      }
-    return false;
-  }
-  return true;
+/**
+ * inlined Object.is polyfill to avoid requiring consumers ship their own
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+ */
+function is(x, y) {
+  return x === y && (x !== 0 || 1 / x === 1 / y) || x !== x && y !== y // eslint-disable-line no-self-compare
+  ;
 }
 
 var currentlyRenderingComponent = null;
@@ -71953,12 +71969,47 @@ var renderPhaseUpdates = null;
 var numberOfReRenders = 0;
 var RE_RENDER_LIMIT = 25;
 
+var isInHookUserCodeInDev = false;
+
+// In DEV, this is the name of the currently executing primitive hook
+var currentHookNameInDev = void 0;
+
 function resolveCurrentlyRenderingComponent() {
-  !(currentlyRenderingComponent !== null) ? invariant(false, 'Hooks can only be called inside the body of a function component.') : void 0;
+  !(currentlyRenderingComponent !== null) ? invariant(false, 'Hooks can only be called inside the body of a function component. (https://fb.me/react-invalid-hook-call)') : void 0;
+  {
+    !!isInHookUserCodeInDev ? warning$1(false, 'Do not call Hooks inside useEffect(...), useMemo(...), or other built-in Hooks. ' + 'You can only call Hooks at the top level of your React function. ' + 'For more information, see ' + 'https://fb.me/rules-of-hooks') : void 0;
+  }
   return currentlyRenderingComponent;
 }
 
+function areHookInputsEqual(nextDeps, prevDeps) {
+  if (prevDeps === null) {
+    {
+      warning$1(false, '%s received a final argument during this render, but not during ' + 'the previous render. Even though the final argument is optional, ' + 'its type cannot change between renders.', currentHookNameInDev);
+    }
+    return false;
+  }
+
+  {
+    // Don't bother comparing lengths in prod because these arrays should be
+    // passed inline.
+    if (nextDeps.length !== prevDeps.length) {
+      warning$1(false, 'The final argument passed to %s changed size between renders. The ' + 'order and size of this array must remain constant.\n\n' + 'Previous: %s\n' + 'Incoming: %s', currentHookNameInDev, '[' + nextDeps.join(', ') + ']', '[' + prevDeps.join(', ') + ']');
+    }
+  }
+  for (var i = 0; i < prevDeps.length && i < nextDeps.length; i++) {
+    if (is(nextDeps[i], prevDeps[i])) {
+      continue;
+    }
+    return false;
+  }
+  return true;
+}
+
 function createHook() {
+  if (numberOfReRenders > 0) {
+    invariant(false, 'Rendered more hooks than during the previous render');
+  }
   return {
     memoizedState: null,
     queue: null,
@@ -71993,6 +72044,9 @@ function createWorkInProgressHook() {
 
 function prepareToUseHooks(componentIdentity) {
   currentlyRenderingComponent = componentIdentity;
+  {
+    isInHookUserCodeInDev = false;
+  }
 
   // The following should have already been reset
   // didScheduleRenderPhaseUpdate = false;
@@ -72024,6 +72078,9 @@ function finishHooks(Component, props, children, refOrContext) {
   numberOfReRenders = 0;
   renderPhaseUpdates = null;
   workInProgressHook = null;
+  {
+    isInHookUserCodeInDev = false;
+  }
 
   // These were reset above
   // currentlyRenderingComponent = null;
@@ -72039,10 +72096,16 @@ function finishHooks(Component, props, children, refOrContext) {
 function readContext(context, observedBits) {
   var threadID = currentThreadID;
   validateContextBounds(context, threadID);
+  {
+    !!isInHookUserCodeInDev ? warning$1(false, 'Context can only be read while React is rendering. ' + 'In classes, you can read it in the render method or getDerivedStateFromProps. ' + 'In function components, you can read it directly in the function body, but not ' + 'inside Hooks like useReducer() or useMemo().') : void 0;
+  }
   return context[threadID];
 }
 
 function useContext(context, observedBits) {
+  {
+    currentHookNameInDev = 'useContext';
+  }
   resolveCurrentlyRenderingComponent();
   var threadID = currentThreadID;
   validateContextBounds(context, threadID);
@@ -72054,12 +72117,20 @@ function basicStateReducer(state, action) {
 }
 
 function useState(initialState) {
+  {
+    currentHookNameInDev = 'useState';
+  }
   return useReducer(basicStateReducer,
   // useReducer has a special case to support lazy useState initializers
   initialState);
 }
 
-function useReducer(reducer, initialState, initialAction) {
+function useReducer(reducer, initialArg, init) {
+  {
+    if (reducer !== basicStateReducer) {
+      currentHookNameInDev = 'useReducer';
+    }
+  }
   currentlyRenderingComponent = resolveCurrentlyRenderingComponent();
   workInProgressHook = createWorkInProgressHook();
   if (isReRender) {
@@ -72078,7 +72149,13 @@ function useReducer(reducer, initialState, initialAction) {
           // priority because it will always be the same as the current
           // render's.
           var _action = update.action;
+          {
+            isInHookUserCodeInDev = true;
+          }
           newState = reducer(newState, _action);
+          {
+            isInHookUserCodeInDev = false;
+          }
           update = update.next;
         } while (update !== null);
 
@@ -72089,13 +72166,18 @@ function useReducer(reducer, initialState, initialAction) {
     }
     return [workInProgressHook.memoizedState, _dispatch];
   } else {
+    {
+      isInHookUserCodeInDev = true;
+    }
+    var initialState = void 0;
     if (reducer === basicStateReducer) {
       // Special case for `useState`.
-      if (typeof initialState === 'function') {
-        initialState = initialState();
-      }
-    } else if (initialAction !== undefined && initialAction !== null) {
-      initialState = reducer(initialState, initialAction);
+      initialState = typeof initialArg === 'function' ? initialArg() : initialArg;
+    } else {
+      initialState = init !== undefined ? init(initialArg) : initialArg;
+    }
+    {
+      isInHookUserCodeInDev = false;
     }
     workInProgressHook.memoizedState = initialState;
     var _queue2 = workInProgressHook.queue = {
@@ -72107,22 +72189,32 @@ function useReducer(reducer, initialState, initialAction) {
   }
 }
 
-function useMemo(nextCreate, inputs) {
+function useMemo(nextCreate, deps) {
   currentlyRenderingComponent = resolveCurrentlyRenderingComponent();
   workInProgressHook = createWorkInProgressHook();
 
-  var nextInputs = inputs !== undefined && inputs !== null ? inputs : [nextCreate];
+  var nextDeps = deps === undefined ? null : deps;
 
-  if (workInProgressHook !== null && workInProgressHook.memoizedState !== null) {
+  if (workInProgressHook !== null) {
     var prevState = workInProgressHook.memoizedState;
-    var prevInputs = prevState[1];
-    if (areHookInputsEqual(nextInputs, prevInputs)) {
-      return prevState[0];
+    if (prevState !== null) {
+      if (nextDeps !== null) {
+        var prevDeps = prevState[1];
+        if (areHookInputsEqual(nextDeps, prevDeps)) {
+          return prevState[0];
+        }
+      }
     }
   }
 
+  {
+    isInHookUserCodeInDev = true;
+  }
   var nextValue = nextCreate();
-  workInProgressHook.memoizedState = [nextValue, nextInputs];
+  {
+    isInHookUserCodeInDev = false;
+  }
+  workInProgressHook.memoizedState = [nextValue, nextDeps];
   return nextValue;
 }
 
@@ -72143,6 +72235,9 @@ function useRef(initialValue) {
 }
 
 function useLayoutEffect(create, inputs) {
+  {
+    currentHookNameInDev = 'useLayoutEffect';
+  }
   warning$1(false, 'useLayoutEffect does nothing on the server, because its effect cannot ' + "be encoded into the server renderer's output format. This will lead " + 'to a mismatch between the initial, non-hydrated UI and the intended ' + 'UI. To avoid this, useLayoutEffect should only be used in ' + 'components that render exclusively on the client.');
 }
 
@@ -72179,10 +72274,12 @@ function dispatchAction(componentIdentity, queue, action) {
   }
 }
 
-function noop() {}
-function identity(fn) {
-  return fn;
+function useCallback(callback, deps) {
+  // Callbacks are passed as they are in the server environment.
+  return callback;
 }
+
+function noop() {}
 
 var currentThreadID = 0;
 
@@ -72198,15 +72295,13 @@ var Dispatcher = {
   useRef: useRef,
   useState: useState,
   useLayoutEffect: useLayoutEffect,
-  // Callbacks are passed as they are in the server environment.
-  useCallback: identity,
-  // useImperativeMethods is not run in the server environment
-  useImperativeMethods: noop,
+  useCallback: useCallback,
+  // useImperativeHandle is not run in the server environment
+  useImperativeHandle: noop,
   // Effects are not run in the server environment.
-  useEffect: noop
-};
-var DispatcherWithoutHooks = {
-  readContext: readContext
+  useEffect: noop,
+  // Debugging effect
+  useDebugValue: noop
 };
 
 var HTML_NAMESPACE = 'http://www.w3.org/1999/xhtml';
@@ -73449,7 +73544,7 @@ var toArray = React.Children.toArray;
 // Each stack is an array of frames which may contain nested stacks of elements.
 var currentDebugStacks = [];
 
-var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
 var ReactDebugCurrentFrame = void 0;
 var prevGetCurrentStackImpl = null;
 var getCurrentServerStackImpl = function () {
@@ -73958,6 +74053,7 @@ var ReactDOMServerRenderer = function () {
   ReactDOMServerRenderer.prototype.destroy = function destroy() {
     if (!this.exhausted) {
       this.exhausted = true;
+      this.clearProviders();
       freeThreadID(this.threadID);
     }
   };
@@ -74016,6 +74112,15 @@ var ReactDOMServerRenderer = function () {
     context[this.threadID] = previousValue;
   };
 
+  ReactDOMServerRenderer.prototype.clearProviders = function clearProviders() {
+    // Restore any remaining providers on the stack to previous values
+    for (var index = this.contextIndex; index >= 0; index--) {
+      var _context = this.contextStack[index];
+      var previousValue = this.contextValueStack[index];
+      _context[this.threadID] = previousValue;
+    }
+  };
+
   ReactDOMServerRenderer.prototype.read = function read(bytes) {
     if (this.exhausted) {
       return null;
@@ -74023,12 +74128,8 @@ var ReactDOMServerRenderer = function () {
 
     var prevThreadID = currentThreadID;
     setCurrentThreadID(this.threadID);
-    var prevDispatcher = ReactCurrentOwner.currentDispatcher;
-    if (enableHooks) {
-      ReactCurrentOwner.currentDispatcher = Dispatcher;
-    } else {
-      ReactCurrentOwner.currentDispatcher = DispatcherWithoutHooks;
-    }
+    var prevDispatcher = ReactCurrentDispatcher.current;
+    ReactCurrentDispatcher.current = Dispatcher;
     try {
       // Markup generated within <Suspense> ends up buffered until we know
       // nothing in that boundary suspended
@@ -74101,7 +74202,7 @@ var ReactDOMServerRenderer = function () {
       }
       return out[0];
     } finally {
-      ReactCurrentOwner.currentDispatcher = prevDispatcher;
+      ReactCurrentDispatcher.current = prevDispatcher;
       setCurrentThreadID(prevThreadID);
     }
   };
@@ -74185,7 +74286,25 @@ var ReactDOMServerRenderer = function () {
         case REACT_SUSPENSE_TYPE:
           {
             if (enableSuspenseServerRenderer) {
-              var fallbackChildren = toArray(nextChild.props.fallback);
+              var fallback = nextChild.props.fallback;
+              if (fallback === undefined) {
+                // If there is no fallback, then this just behaves as a fragment.
+                var _nextChildren3 = toArray(nextChild.props.children);
+                var _frame3 = {
+                  type: null,
+                  domNamespace: parentNamespace,
+                  children: _nextChildren3,
+                  childIndex: 0,
+                  context: context,
+                  footer: ''
+                };
+                {
+                  _frame3.debugElementStack = [];
+                }
+                this.stack.push(_frame3);
+                return '';
+              }
+              var fallbackChildren = toArray(fallback);
               var _nextChildren2 = toArray(nextChild.props.children);
               var _fallbackFrame2 = {
                 type: null,
@@ -74203,7 +74322,7 @@ var ReactDOMServerRenderer = function () {
                 children: _nextChildren2,
                 childIndex: 0,
                 context: context,
-                footer: ''
+                footer: '<!--/$-->'
               };
               {
                 _frame2.debugElementStack = [];
@@ -74211,7 +74330,7 @@ var ReactDOMServerRenderer = function () {
               }
               this.stack.push(_frame2);
               this.suspenseDepth++;
-              return '';
+              return '<!--$-->';
             } else {
               invariant(false, 'ReactDOMServer does not yet support Suspense.');
             }
@@ -74225,30 +74344,12 @@ var ReactDOMServerRenderer = function () {
           case REACT_FORWARD_REF_TYPE:
             {
               var element = nextChild;
-              var _nextChildren3 = void 0;
+              var _nextChildren4 = void 0;
               var componentIdentity = {};
               prepareToUseHooks(componentIdentity);
-              _nextChildren3 = elementType.render(element.props, element.ref);
-              _nextChildren3 = finishHooks(elementType.render, element.props, _nextChildren3, element.ref);
-              _nextChildren3 = toArray(_nextChildren3);
-              var _frame3 = {
-                type: null,
-                domNamespace: parentNamespace,
-                children: _nextChildren3,
-                childIndex: 0,
-                context: context,
-                footer: ''
-              };
-              {
-                _frame3.debugElementStack = [];
-              }
-              this.stack.push(_frame3);
-              return '';
-            }
-          case REACT_MEMO_TYPE:
-            {
-              var _element = nextChild;
-              var _nextChildren4 = [React.createElement(elementType.type, _assign({ ref: _element.ref }, _element.props))];
+              _nextChildren4 = elementType.render(element.props, element.ref);
+              _nextChildren4 = finishHooks(elementType.render, element.props, _nextChildren4, element.ref);
+              _nextChildren4 = toArray(_nextChildren4);
               var _frame4 = {
                 type: null,
                 domNamespace: parentNamespace,
@@ -74263,13 +74364,12 @@ var ReactDOMServerRenderer = function () {
               this.stack.push(_frame4);
               return '';
             }
-          case REACT_PROVIDER_TYPE:
+          case REACT_MEMO_TYPE:
             {
-              var provider = nextChild;
-              var nextProps = provider.props;
-              var _nextChildren5 = toArray(nextProps.children);
+              var _element = nextChild;
+              var _nextChildren5 = [React.createElement(elementType.type, _assign({ ref: _element.ref }, _element.props))];
               var _frame5 = {
-                type: provider,
+                type: null,
                 domNamespace: parentNamespace,
                 children: _nextChildren5,
                 childIndex: 0,
@@ -74279,10 +74379,29 @@ var ReactDOMServerRenderer = function () {
               {
                 _frame5.debugElementStack = [];
               }
+              this.stack.push(_frame5);
+              return '';
+            }
+          case REACT_PROVIDER_TYPE:
+            {
+              var provider = nextChild;
+              var nextProps = provider.props;
+              var _nextChildren6 = toArray(nextProps.children);
+              var _frame6 = {
+                type: provider,
+                domNamespace: parentNamespace,
+                children: _nextChildren6,
+                childIndex: 0,
+                context: context,
+                footer: ''
+              };
+              {
+                _frame6.debugElementStack = [];
+              }
 
               this.pushProvider(provider);
 
-              this.stack.push(_frame5);
+              this.stack.push(_frame6);
               return '';
             }
           case REACT_CONTEXT_TYPE:
@@ -74315,19 +74434,19 @@ var ReactDOMServerRenderer = function () {
               validateContextBounds(reactContext, threadID);
               var nextValue = reactContext[threadID];
 
-              var _nextChildren6 = toArray(_nextProps.children(nextValue));
-              var _frame6 = {
+              var _nextChildren7 = toArray(_nextProps.children(nextValue));
+              var _frame7 = {
                 type: nextChild,
                 domNamespace: parentNamespace,
-                children: _nextChildren6,
+                children: _nextChildren7,
                 childIndex: 0,
                 context: context,
                 footer: ''
               };
               {
-                _frame6.debugElementStack = [];
+                _frame7.debugElementStack = [];
               }
-              this.stack.push(_frame6);
+              this.stack.push(_frame7);
               return '';
             }
           case REACT_LAZY_TYPE:
@@ -74607,12 +74726,12 @@ module.exports = server_browser;
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -76584,12 +76703,12 @@ exports.classNamesShape = classNamesShape;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -78428,12 +78547,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_831a3634f66cb1dada0c ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_0a597f1180c5df020b3a ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_831a3634f66cb1dada0c */ "dll-reference dll_831a3634f66cb1dada0c"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0a597f1180c5df020b3a */ "dll-reference dll_0a597f1180c5df020b3a"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -79213,11 +79332,11 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -79252,7 +79371,7 @@ function (_App) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(MyApp)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+    _defineProperty(_assertThisInitialized(_this), "state", {
       shopOrigin: js_cookie__WEBPACK_IMPORTED_MODULE_5___default.a.get('shopOrigin')
     });
 
@@ -79320,14 +79439,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_831a3634f66cb1dada0c":
+/***/ "dll-reference dll_0a597f1180c5df020b3a":
 /*!*******************************************!*\
-  !*** external "dll_831a3634f66cb1dada0c" ***!
+  !*** external "dll_0a597f1180c5df020b3a" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_831a3634f66cb1dada0c;
+module.exports = dll_0a597f1180c5df020b3a;
 
 /***/ })
 
