@@ -157,7 +157,7 @@ class Index extends React.Component {
                         variables: {
                           "id": `gid://shopify/ScriptTag/${c}`,
                           "input": {
-                            "src": `https://300c21c2.ngrok.io/js/gadjen_app_bounce.js?effect=${effect}&interval=${interval}`
+                            "src": `https://shopify-animate-cart-button.herokuapp.com/js/gadjen_app_bounce.js?effect=${effect}&interval=${interval}`
                           }
                         }
                       });
