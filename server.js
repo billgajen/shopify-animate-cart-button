@@ -1,3 +1,4 @@
+const http = require('http');
 const Koa = require('koa');
 
 const bodyParser = require('koa-bodyparser');
@@ -8,12 +9,12 @@ const dev = process.env.NODE_ENV !== 'production';
 const { SHOPIFY_API_SECRET_KEY, SHOPIFY_API_KEY, TUNNEL_URL } = process.env;
 
 
-app.prepare().then(() => {
-	const server = new Koa();
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
 
-	server.use(session(server));
-
-	server.listen(port, () => {
-	  console.log(`> Ready on http://localhost:${port}`);
-	});
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
 });
