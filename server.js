@@ -24,6 +24,9 @@ const { SHOPIFY_API_SECRET_KEY, SHOPIFY_API_KEY, TUNNEL_URL } = process.env;
 
 
 app.prepare().then(() => {
+	const server = new Koa();
+	const router = new Router();
+
 
 	server.listen(port, () => {
 	  console.log(`> Ready on http://localhost:${port}`);
