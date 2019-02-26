@@ -71,7 +71,14 @@ class Index extends React.Component {
       {label: '25', value: '25'},
       {label: '30', value: '30'},
     ];
-
+    const responseJSON = fetch('/effects/select')
+     .then(response => response.json()) 
+     .then((responseJSON) => {
+        return responseJSON;
+     })
+     .catch(error => console.error('Error:', error))
+    console.log('BGajen');
+    console.log(responseJSON); 
     return (
       <Mutation
         mutation={UPDATE_SCRIPT_TAG}
