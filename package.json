@@ -1,9 +1,6 @@
 {
   "name": "shopify-app-stickybar",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.5.0"
-  },
   "description": "",
   "main": "index.js",
   "scripts": {
